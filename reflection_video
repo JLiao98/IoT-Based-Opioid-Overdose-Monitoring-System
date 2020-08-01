@@ -1,0 +1,32 @@
+1. Our project is to create visualization using goal-tending data from NHL to understand goalie performance. We are working with the NHL goal-tending data which contains 22 columns and more than 49 thousand rows. This NHL dataset is fetched by the NHL official website API endpoints. And among those attributes, we are maninly interested in the spatial data (x,y), which is the coordinates of the shots/goals, and the goalie information, such as firstname and last name. And the static visualization is essentially the Ice Rink map representation of the data with the interaction of allowing users to choose two different goalies to compare the goalie performance.
+
+
+
+2. demonstrate the interactive visulization, the visual encoding, use of space, how one might interact with the visualization
+
+
+I mentioned the use of if and else statements to decide the colour of shots missed and blocked for the encoding part
+And how we scaled the x and y axis to present all the data at once on a default window
+The fact that we scaled to -43,43
+For theory guideline I talked about how we followed theup’s guideline by minimizing the amount of colour and unnecessary text in our visualization
+We made sure to only use colour when necessary
+
+Tufte's Guidelines as Heuristics for Evaluating a Visualization
+
+Minimize ink while maximizing data ink 
+
+Maximize data density 
+
+Avoid chartjunk 
+
+Create multifunctioning graphics
+
+Make use of parallelism (small multiples) 
+
+Consider 3D carefully 
+
+Consider colour carefully 
+
+Narrative of space and time
+
+This visualization is based on the time-series data and display the data over time in a good manner.
